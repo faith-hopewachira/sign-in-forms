@@ -3,76 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign-in</title>
-    <style>
-        #Form{
-            border: solid 1px;
-            margin: 0 auto;
-            width: 30%;
-            padding: 24px;
-            
-        }
-
-        .input{
-            padding: 14px 12px;
-            border-radius: 5px;
-            border: solid 1px;
-            width: 80%;
-        }
-        button{
-            background-color: #030804;
-            color: white;
-            padding: 6px 12px;
-            border-radius: 5px;
-            margin: 7px 0;
-            width: 100%;
-            font-size: 18px;
-        }
-        .center {
-            width: 20px;
-            height: 20px;
-            margin-left: 20%;
-            margin-right: 20%;
-            
-        }
-       
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-up</title>
+  
 </head>
 <body>
-    <form id="Form">
-        <p>Already have an account?<a href="sign-in.html"><b>Sign In</b></a></p>
+    <form id="Form" action="tables.html">
+        <p>Don't have an account?<a href="sign-in.html"><b>Sign In</b></a></p>
         <h1>Sign Up</h1>
-        <label for="name">Name:</label>
+        <label for="email">Name:</label>
         <br/>
-        <input name="name" type="text" placeholder="Sadegh" required class="input">
-        <br/>
+        <input name="name" type="name" placeholder="Enter name" class="input">
         <br/>
         <br/>
         <label for="email">Email:</label>
         <br/>
-        <input name="email" type="email" placeholder="Sadeqsaadi2@Gmail.Com" required class="input">
+        <input name="email" type="email" placeholder="Enter email" class="input">
         <br/>
         <br/>
+        <label for="password">Password:</label>
         <br/>
-        <label for="password">Password</label>
-        <br/>
-        <input name="password" type="password" placeholder="Enter password" required class="input">
+        <input name="password" type="password" placeholder="Enter password" class="input">
         <br/>
         <br/>
-        <input name="I've Read And Agreed The Terms And Conditions For Our Privacy Policy" type="checkbox" placeholder="Enter password">
+        <input name="I've Read And Agree The Terms And Conditions For Our Privacy Policy" type="checkbox" placeholder="Enter password">
         <label for="I've Read And Agree The Terms And Conditions For Our Privacy Policy">I've Read And Agree The Terms And Conditions For Our Privacy Policy</label>
         <br/>
         <br/>
         <br/>
-        <br/>
-        <button>Sign Up</button>
+
+        <button>Log In</button>
         <br/>
         <br/>
         <br/>
         <img src="gicon.png" alt="" class="center">
         <img src="fb.png" alt="" class="center">
-
-        
 
 
     </form>
